@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>MMSmusic</title>
+</head>
+
+<body>
+    <form class="comparisonForm">
+        <section class="comparisonForm__container">
+            <h2>Crea una playList con tus amigos</h2>
+            <div class="comparisonForm__section">
+                <label for="person">A1</label>
+                <select name="person" id=""></select>
+                <label for="person">A2</label>
+                <select name="person" id=""></select>
+                <label for="person">A3</label>
+                <select name="person" id=""></select>
+                <label for="person">A4</label>
+                <select name="person" id=""></select>
+                <label for="person">A5</label>
+                <select name="person" id=""></select>
+                                
+                              <!-- <label for="neighbors">K</label>
+                                <input type="number" name="neighbors" required min="1" max="24">
+                                   -->  
+                                   <button class="comparisonForm__btn">
+                                    Ejecutar
+                                </button>
+            </div>
+            <div class="comparisonForm__section">
+                <h2>Canciones de tu playlist</h2>
+                <ol class="comparisonForm__results">
+
+                </ol>
+            </div>
+
+            <div class="Textone">¿Te interesa saber que juegos van contigo acorde estos gustos musicales?</div>
+           
+               <button class="toGameBtn">
+            Clic aquí
+        </button>
+            
+        </section>
+
+    </form>
+
+    <script src="./lib/papaparse.min.js"></script>
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
